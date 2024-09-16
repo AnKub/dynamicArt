@@ -54,14 +54,24 @@ const data = [
       britannicaLink: "https://www.britannica.com/art/East-Asian-arts/The-visual-arts"
   },
   {
-      id : "6-ghotic-arhitecture",
-      type: "Gothic arhitecture",
+      id : "6-ghotic-architecture",
+      type: "Gothic architecture",
       region: "Europe",
       catagories: "Arts & Culture",
       imgHeaders: "https://images.prismic.io/hoo-website/05aa9891-5e7a-4fe7-9d01-50fbe91d7c21_gothic-architecture-uk.jpg?auto=compress,format",
       imgCover: "https://i.pinimg.com/564x/5b/d9/7f/5bd97fb350c69be84f54f35829298924.jpg",
       history: "Gothic architecture, architectural style in Europe that lasted from the mid-12th century to the 16th century, particularly a style of masonry building characterized by cavernous spaces with the expanse of walls broken up by overlaid tracery. In the 12th–13th century, feats of engineering permitted increasingly gigantic buildings. The rib vault, flying buttress, and pointed (Gothic) arch were used as solutions to the problem of building a very tall structure while preserving as much natural light as possible. Stained-glass window panels rendered startling sun-dappled interior effects. One of the earliest buildings to combine these elements into a coherent style was the",
       britannicaLink: "https://www.britannica.com/art/Gothic-architecture"
-  }
+  },
+  {
+      id : "6-african-architecture",
+      type: "African architecture",
+      region: "Africa",
+      catagories: "Arts & Culture",
+      imgHeaders: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/1997_277-16A_Agadez_hotel.jpg/1024px-1997_277-16A_Agadez_hotel.jpg",
+      imgCover: "https://images.westend61.de/0001558060pw/grosse-moschee-von-agadez-unesco-welterbestaette-agadez-niger-afrika-RHPLF19771.jpg",
+      history: "African architecture, the architecture of Africa, particularly of sub-Saharan Africa. In North Africa, where Islam and Christianity had a significant influence, architecture predominates among the visual arts. Included here are the magnificent mosques built of mud in Djenné and Mopti in Mali, the rock-hewn churches of Ethiopia, and the Islamic monuments of coastal eastern Africa. Discussions of architecture in sub-Saharan Africa focus chiefly on housing in villages, rural mosques, and the mélange of colonial and modern influences that characterize urban areas.",
+      britannicaLink: "https://www.britannica.com/art/African-architecture"
+  },
 ]
 export default data;

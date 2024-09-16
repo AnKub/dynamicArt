@@ -29,7 +29,7 @@ return (
                             {/* Image Over */}
                             <aside className="h-[6em] w-[100%]">
                                 <div className="h-[100%]  w-[100%]">
-                                    <img src={newData.imgHeaders} alt="" className="h-[100%]  shadow-lg  shadow-indigo-500/40 w-[100%] object-cover rounded-xl"/>
+                                    <img src={newData.imgHeaders} alt="" className="h-[100%]  shadow-lg  shadow-pink-600/40 w-[100%] object-cover rounded-3xl"/>
                                 </div>
                             </aside>
 
@@ -37,7 +37,7 @@ return (
                            <section className="flex gap-6">
                            <aside className="w-[50%]">
                                 <div>
-                                    <p className="bg-orange-500 w-[fit-content] rounded-xl mt-4 py-1 px-2 font-bold">{newData.catagories}</p>
+                                    <p className="bg-red-500 w-[fit-content] rounded-xl mt-4 py-1 px-2 font-semibold">{newData.catagories}</p>
                                     <h1 className="font-light text-4xl my-7">{newData.type}</h1>
                                     <p className="font-bold mb-4 text-2xl">{newData.region}</p>
                                 </div>
@@ -47,7 +47,7 @@ return (
 
                                 <div className="mt-4">
                                     <span>{`Learn more from`}</span>
-                                    <Link to={newData.britannicaLink} target="_blank" className="text-orange-500 py-2 px-2 rounded-md inline mt-4 hover:underline hover:text-black">britannica</Link>
+                                    <Link to={newData.britannicaLink} target="_blank" className="text-red-500 py-2 px-2 rounded-md inline mt-4 hover:underline hover:text-black">britannica</Link>
                                 </div>
                             </aside>
 

@@ -1,15 +1,15 @@
-import { Activity, Search } from "react-feather";
-
+import { Search } from "react-feather";
+import logo from '../../dist/smiling.png';
 
 export default function Navbar() {
   return (
    <>
     <main>
         <header >
-            <nav className="flex justify-between bg-slate-200 shadow-lg shadow-indigo-500/40  rounded-3xl py-4">
+            <nav className="flex justify-between bg-slate-200 shadow-lg shadow-pink-600/40  rounded-3xl py-4">
                 {/* logo */}
                 <div className="">
-                    <Activity className="inline-block ml-10 mb-2 mr-4 text-orange-400" />
+                <img src={logo} alt="Logo" className="inline-block ml-10 mb-2 mr-5 w-6 h-6" />
                     <p className="inline-block text-2xl">{`Arts & Culture`}</p>
                 </div>
 
