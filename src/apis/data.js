@@ -64,7 +64,7 @@ const data = [
       britannicaLink: "https://www.britannica.com/art/Gothic-architecture"
   },
   {
-      id : "6-african-architecture",
+      id : "7-african-architecture",
       type: "African architecture",
       region: "Africa",
       catagories: "Arts & Culture",
